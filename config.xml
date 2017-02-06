@@ -8,16 +8,13 @@
 >
     <name>Ebranch</name>
     <description>Ebranch Mobile app</description>
-    <author email="support@sunpop.cn" href="http://www.sunpop.cn">Kalpesh Patel</author>
+    <author email="patel.kalpeshbeit2010@gmail.com" href="http://shubantechnologies.com">Kalpesh Patel</author>
     <content src="index.html" />
     <access origin="*" />
     <preference name="webviewbounce" value="false" />
     <preference name="UIWebViewBounce" value="false" />
     <preference name="DisallowOverscroll" value="true" />
     <preference name="BackupWebStorage" value="none" />
-    <feature name="App">
-        <param name="App" value="org.apache.cordova.App" />
-    </feature>
     <feature name="StatusBar">
         <param name="ios-package" onload="true" value="CDVStatusBar" />
     </feature>

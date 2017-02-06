@@ -70,7 +70,6 @@
 	<feature name="File">
         <param name="android-package" value="org.apache.cordova.file.FileUtils" />
     </feature>
-    <plugin name="cordova-plugin-device" source="pgb" spec="1.0.1" />
     <plugin name="cordova-plugin-geolocation" source="pgb" spec="1.0.1" />
     <plugin name="cordova-plugin-inappbrowser" source="pgb" spec="1.0.1" />
     <plugin name="cordova-plugin-network-information" source="pgb" spec="1.0.1" />

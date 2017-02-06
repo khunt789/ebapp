@@ -90,7 +90,6 @@
     <preference name="SplashScreenDelay" value="5000" />
     <preference name="DisallowOverscroll" value="true" />
     <preference name="LoadUrlTimeoutValue" value="50000" />
-    <gap:plugin name="org.apache.cordova.splashscreen" />
 
 
     <access origin="*" />

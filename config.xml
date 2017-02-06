@@ -70,10 +70,11 @@
 	<feature name="File">
         <param name="android-package" value="org.apache.cordova.file.FileUtils" />
     </feature>
-    <plugin name="cordova-plugin-geolocation" source="pgb" spec="1.0.1" />
-    <plugin name="cordova-plugin-inappbrowser" source="pgb" spec="1.0.1" />
-    <plugin name="cordova-plugin-network-information" source="pgb" spec="1.0.1" />
-    <plugin name="cordova-plugin-whitelist" spec="1.2.1" />
+    <plugin name="cordova-plugin-device" source="pgb"  />
+    <plugin name="cordova-plugin-geolocation" source="pgb"  />
+    <plugin name="cordova-plugin-inappbrowser" source="pgb" />
+    <plugin name="cordova-plugin-network-information" source="pgb" />
+    <plugin name="cordova-plugin-whitelist"  />
     <!--	<plugin name="InAppBrowser" value="org.apache.cordova.InAppBrowser" />-->
     <plugin name="phonegap-plugin-push" source="npm">
         <param name="SENDER_ID" value="684191859302" />

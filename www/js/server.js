@@ -36,7 +36,7 @@
             password: password
         }, callback).fail(function () {
             alert('Please check the Username or Password!');
-        });
+        });		
     };
 
     servers.logout = function (callback) {
@@ -67,6 +67,7 @@
             success: callback,
             error: error
         });
+		
     };
 
     servers.getProductDetail = function (id, callback) {
@@ -78,6 +79,8 @@
             success: callback,
             error: error
         });
+		console.write('response log');
+		console.log(response);
     };
 
     servers.getProductRest = function (id, callback) {

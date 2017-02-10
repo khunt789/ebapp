@@ -49,6 +49,7 @@ function ready() {
     function showMenus(menus) {
 		//设置cart的web指向
 		$('#cartIcon').attr ('href','detail.html?title=My Shopping Cart&frameUrl=' + defines.baseWeb +'/checkout/cart/');
+		
         $.each(menus, function (i, item) {
             item.url = '#c' + item.category_id;
         });

@@ -33,8 +33,8 @@
             name: 'Home',
             class_name: 'active'
         }, {
-            name: '',
-            class_name: 'table-view-divider',
+            name: 'OTHER OPTIONS',
+            class_name: 'table-view-divider menu_title',
             url: '#'
         }, {
             name: 'My Order',

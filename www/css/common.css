@@ -539,4 +539,4 @@ a:active {
 .cbp-spmenu h3 .icon-close {    font-size: 1.2em !important; color: #FFF !important;padding:9px !important}
 .table-view-cell{border:none !important}.table-view-cell{list-style:none !important}
 .menu_title,.cbp-spmenu li.menu_title a{color:#555555 !important;font-size:0.9em !important;cursor: unset;pointer-events: none;}
-.test{background:#F00000;}
+.test{background:#F00000;}.test2{background:#F00000;}
